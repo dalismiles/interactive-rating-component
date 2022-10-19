@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+
+.ThankYouCard {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  border-radius: 20px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.ThankYouCard__icon img {
+  width: 80%;
+}
+
+.ThankYouCard__score {
+  padding: 10px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(219, 13%, 25%);
+  border-radius: 20px;
+}
+
+.ThankYouCard__description {
+  color: hsl(217, 12%, 63%);
+  line-height: 1.6;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}

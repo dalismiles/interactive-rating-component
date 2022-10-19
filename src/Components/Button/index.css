@@ -1,0 +1,17 @@
+.Button {
+  width: 330px;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}
